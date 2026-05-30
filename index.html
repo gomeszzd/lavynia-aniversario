@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feliz Aniversário, Lavynia ❤️</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(135deg,#ff9acb,#ffd6e8);color:#fff;text-align:center}
+header{padding:40px 20px}
+h1{font-size:3em}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:20px}
+.card{perspective:1000px;cursor:pointer}
+.inner{position:relative;transition:transform .8s;transform-style:preserve-3d}
+.card.active .inner{transform:rotateY(180deg) scale(1.05)}
+.front,.back{position:absolute;width:100%;height:100%;backface-visibility:hidden;border-radius:20px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,.3)}
+.front img{width:100%;height:100%;object-fit:cover}
+.back{background:white;color:#d63384;transform:rotateY(180deg);padding:20px;box-sizing:border-box;display:flex;align-items:center;justify-content:center}
+.card,.inner{height:380px}
+.message{max-width:900px;margin:30px auto;padding:20px;background:rgba(255,255,255,.15);border-radius:20px}
+small{display:block;margin-top:8px}
+</style>
+</head>
+<body>
+<header>
+<h1>🎂 Feliz Aniversário, Lavynia ❤️</h1>
+<p>Clique nas fotos para revelar uma mensagem especial.</p>
+</header>
+
+<div class="gallery">
+<div class="card" onclick="this.classList.toggle('active')"><div class="inner">
+<div class="front"><img src="foto1.jpeg"></div>
+<div class="back">Seu sorriso ilumina qualquer lugar. Obrigado por tornar meus dias mais leves e felizes. ✨</div>
+</div></div>
+
+<div class="card" onclick="this.classList.toggle('active')"><div class="inner">
+<div class="front"><img src="foto2.jpeg"></div>
+<div class="back">Cada momento ao seu lado vira uma lembrança que vale a pena guardar. ❤️</div>
+</div></div>
+
+<div class="card" onclick="this.classList.toggle('active')"><div class="inner">
+<div class="front"><img src="foto3.jpeg"></div>
+<div class="back">Essa foto me lembra como é bom compartilhar momentos simples com você. 🌹</div>
+</div></div>
+
+<div class="card" onclick="this.classList.toggle('active')"><div class="inner">
+<div class="front"><img src="foto4.jpeg"></div>
+<div class="back">Que seu novo ciclo seja cheio de conquistas, felicidade e sonhos realizados. 💫</div>
+</div></div>
+</div>
+
+<div class="message">
+<h2>🎵 Músicas que me fazem lembrar de você</h2>
+<p>Algumas músicas do Luan Santana que combinam com esse momento:</p>
+<p><b>Te Vivo</b>, <b>Amar Não é Pecado</b>, <b>Cê Topa?</b> e <b>Escreve Aí</b>.</p>
+<small>(Usei apenas os títulos das músicas para respeitar direitos autorais.)</small>
+</div>
+
+<div class="message">
+<h2>💌 Meu recado para você</h2>
+<p>
+Feliz aniversário, Lavynia! ❤️<br><br>
+Hoje é o seu dia, mas quem ganha o presente de ter você por perto sou eu. Queria aproveitar para te dizer o quanto eu te amo e o quanto você é importante na minha vida. Às vezes eu nem consigo colocar em palavras tudo o que sinto, mas saiba que você ocupa um lugar muito especial no meu coração.<br><br>
+Seu sorriso, seu jeito, suas brincadeiras, suas implicâncias e até as pequenas coisas que você faz conseguem deixar meus dias melhores. Sou muito grato por cada momento ao seu lado e por poder compartilhar um pouco da vida com você.<br><br>
+Espero que seu novo ano seja cheio de coisas boas, conquistas, felicidade, saúde e muitos motivos para sorrir e que tudo dê certo nas nossas vidas. Você merece tudo de mais lindo que existe nesse mundo.<br><br>
+Parabéns pelo seu dia, minha princesa. Que você continue sendo essa pessoa incrível que encanta todo mundo ao redor. E nunca esqueça: eu vou estar sempre torcendo por você e querendo te ver feliz.<br><br>
+Eu te vivo muito, Lavynia. Feliz aniversário! ❤️✨<br><br>
+Desculpa por esse parabéns diferente kkkk😅
+</p>
+</div>
+</body>
+</html>
